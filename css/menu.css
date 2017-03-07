@@ -10,7 +10,7 @@ html {
     height: 100%;
 }
 .teste {
-  background: #ccc;
+  background: #e0e0e0;
   width: 100%;
   height: 100%;
 }
@@ -56,7 +56,7 @@ html {
     position: fixed;
     left:0;
     top:0;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 1);
 }
 .menu-input:not(checked) ~ .menu-content {
     display: none;
@@ -104,6 +104,20 @@ html {
 }
 .bus ul li a:hover {
   color: rgba(0, 0, 0, 1);
+}
+.intro {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.intro h1 {
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.intro p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
 }
 @media only screen and (max-width: 500px) {
 
